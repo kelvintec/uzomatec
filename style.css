@@ -1,0 +1,113 @@
+body{
+background-color:  rgb(167, 243, 167);
+font-family: Roboto;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+  color: red;
+}
+nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e07d7d;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+      
+  }
+  
+  a:hover {
+    color: #c02525;
+  }
+
+  nav {
+    background-color: #181717;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    li {
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    li {
+      margin: 10px 0;
+    }
+  }
+   .responsive-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .responsive-form label,
+  .responsive-form input,
+  .responsive-form textarea,
+  .responsive-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .responsive-form {
+      max-width: 600px;
+    }
+  }
+  
